@@ -10,7 +10,7 @@ router: {
 },
    ```
 
-layouts/default.vue
+`layouts/default.vue`
    ```
 <div class="column is-narrow pr-0">
   <img v-if="$auth.user.avatar" class="inline-block h-12 w-12 rounded-full ring-2 ring-white" :src="$auth.user.avatar"/>
@@ -72,12 +72,12 @@ auth: {
    ```
 でログイン認証している
 
-routerをコメントアウトすることで、ログイン認証されていなくても閲覧できるようになる。
+`router`をコメントアウトすることで、ログイン認証されていなくても閲覧できるようになる。
 
 Cannot read properties of null (reading 'avatar')と表示されてしまいアクセスできない。
-どこにavatarがあるか探したところ、layouts/default.vueに書かれていた。
+どこにavatarがあるか探したところ、`layouts/default.vue`に書かれていた。
 
-どうやらlayouts/default.vueに書かれている内容は、layoutsが指定いされていないすべてのページに適応されるらしい。
+どうやら`layouts/default.vue`に書かれている内容は、`layouts`が指定いされていないすべてのページに適応されるらしい。
 
   ```
 <div class="column is-narrow pr-0">
