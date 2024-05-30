@@ -1,7 +1,5 @@
 # Slackの初期設定
 
-## 仮ジョイン時(pantarhei.coのメールアドレス発行前)
-
 ### 氏名
 英語名
 
@@ -28,19 +26,34 @@
 
 #### Good!
 
-![笑顔が素敵]()
 笑顔が素敵！
+
+<img width="400" src="../../images/slack_single_man.jpg">
+
+真剣な表情が素敵！
+
+<img width="400" src="../../images/slack_single_woman.jpg">
 
 #### NoGood...
 
 あなたが誰か分からないよ！
 
-遠過ぎて見えないよ！
+<img width="400" src="../../images/slack_multi_person.jpg">
+
+遠過ぎて識別できないよ！
+
+<img width="400" src="../../images/slack_far_woman.jpg">
 
 人ではないよ！
 
+<img width="400" src="../../images/slack_panda_cat.jpg">
+
 絵だよ！
 
+<img width="400" src="../../images/slack_pandasista.JPG">
 
 ## 本ジョイン時(pantarhei.coのメールアドレス発行後)
 
+### ステータスの運用
+
+自由だよ！
