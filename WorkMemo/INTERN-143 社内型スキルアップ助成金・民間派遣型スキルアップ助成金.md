@@ -58,13 +58,13 @@
 
 助成金
 
-![alt text](../images/image4６.png)
+![alt text](../images/image46.png)
 
 1人最大100時間まで
 
 宛先
 
-![alt text](../images/image4７.png)
+![alt text](../images/image47.png)
 
 [令和５年度　社内型スキルアップ助成金・民間派遣型スキルアップ助成金（中小企業人材スキルアップ支援事業） ｜ 東京しごと財団　雇用環境整備課](https://www.shigotozaidan.or.jp/koyo-kankyo/boshu/skillup.html) 
 
@@ -98,7 +98,7 @@
 
 提出書類一覧
 
-![alt text](../images/image4８.png)
+![alt text](../images/image48.png)
 
 ![alt text](../images/image49.png)
 
