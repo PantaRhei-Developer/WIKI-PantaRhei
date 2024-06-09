@@ -22,7 +22,7 @@
 
 # 2. 費用
 
-![alt text](../images/image2７.png)
+![alt text](../images/image27.png)
 
 | 日 | 月  | 年   | 
 | ---- | ------- | ------- |
