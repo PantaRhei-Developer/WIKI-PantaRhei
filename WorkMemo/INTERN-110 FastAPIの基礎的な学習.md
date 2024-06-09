@@ -123,9 +123,12 @@ def read_item(item_id: int):
     return {"item_id": item_id}
 ```
 上記の例では、`/items/{item_id}`というパスが定義されている。
+
 `{item_id}`はパスパラメータであり、リクエストがこのエンドポイントに送信されると、FastAPIは自動的にその値を`item_id`として関数に渡します。
+
 `/items/42`へのGETリクエストは`{"item_id": 42}`というレスポンスを返す。
-![alt text](../images/image３１.png)
+
+![alt text](../images/image31.png)
 
 # 5. クエリパラメータ
 クエリパラメータは、URLのクエリ文字列を使用してデータをサーバーに送信する方法です。FastAPIでは、クエリパラメータを関数の引数として受け取ることができます。以下に、FastAPIでクエリパラメータを利用する方法の詳細を示します。
@@ -139,7 +142,9 @@ def read_item(q: str):
     return {"q": q}
 ```
 上記の例では、`/items/`エンドポイントにGETリクエストが送信された際に、`q`というクエリパラメータを受け取り、その値を含むレスポンスを返す。
+
 例えば、`/items/?q=test`に対するリクエストは` {"q": "test"} `を返す。
+
 ![alt text](../images/image32.webp)
 
 **オプションのクエリパラメータ**
@@ -163,6 +168,7 @@ def read_item(q: str = None, limit: int = 10):
     return {"q": q, "limit": limit}
 ```
 上記の例では、`q`と`limit`という2つのクエリパラメータを受け取る。
+
 ![alt text](../images/image33.webp)
 
 # 6. リクエストボディ
