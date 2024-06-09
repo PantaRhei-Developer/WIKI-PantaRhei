@@ -2,7 +2,7 @@
 
 - [0. 結論](#0-結論)
 - [1. 概要](#1-概要)
-- [2. プロジェクト・ファイル構成](#2-プロジェクト・ファイル構成)
+- [2. プロジェクト.ファイル構成](#2-プロジェクト.ファイル構成)
   - [Docker関連](#docker関連)
     - [docker-compose.yaml](#docker-composeyaml)
     - [Dockerfile](#dockerfile)
@@ -45,7 +45,7 @@ Google Cloud 難しい
 # 1. 概要
 [INTERN-111: APIサーバとDBサーバの連携の仕方を学習する 完了](https://pantarhei-hub.atlassian.net/browse/INTERN-111)
  
-# 2. プロジェクト・ファイル構成
+# 2. プロジェクト.ファイル構成
 ```
 .
 ├── .dockervenv
@@ -113,8 +113,10 @@ RUN if [ -f pyproject.toml ]; then poetry install --no-root; fi
 # uvicornのサーバーを立ち上げる
 ENTRYPOINT ["bash", "entrypoint.sh"]
 ```
-### entrypoint.py
+
+### entrypoint.sh
 ```
+
 #!/bin/bash
 
 # uvicornのサーバーを立ち上げる
@@ -390,7 +392,7 @@ DBに存在するcorporate_numberを入力
 
 [Docker 開発環境の中から GCP サービスへの認証を通すかんたんなやり方 - Qiita ](https://qiita.com/castaneai/items/1a5c02c3031ef394b33e)
 
-# 6. 参考
+# 7. 参考
 
 [Cloud RunからCloud SQLに接続する ](https://zenn.dev/kthrlab_blog/articles/9b7edc3786a844)
 
