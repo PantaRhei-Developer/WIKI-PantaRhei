@@ -1,23 +1,24 @@
 # 目次
 
-0. [結論](#結論)
-1. [概要](#概要)
-2. [axiosとは](#axiosとは)
+0. [結論](#0-結論)
+1. [概要](#1-概要)
+2. [axiosとは](#2-axiosとは)
     - [leadknockで使われているaxios](#leadknockで使われているaxios)
-3. [Axios Moduleの基本文法](#axios-moduleの基本文法)
+3. [Axios Moduleの基本文法](#3-axios-moduleの基本文法)
     - [呼び出し方](#呼び出し方)
     - [GET メソッド](#get-メソッド)
     - [POST メソッド](#post-メソッド)
     - [PUT メソッド](#put-メソッド)
     - [DELETE メソッド](#delete-メソッド)
     - [ヘッダーの設定](#ヘッダーの設定)
-    - [同期・非同期制御](#同期非同期制御)
-        - [.then()](#then)
-        - [async/await](#asyncawait)
-        - [例外処理](#例外処理)
-4. [FastAPIで作ったものをAxios Moduleで叩いてみる](#fastapiで作ったものをaxios-moduleで叩いてみる)
+    - [同期・非同期制御](#同期・非同期制御)
+    - [.then()](#then)
+    - [async/await](#asyncawait)
+    - [例外処理](#例外処理)
+4. [FastAPIで作ったものをAxios Moduleで叩いてみる](#4-fastapiで作ったものをaxios-moduleで叩いてみる)
     - [GET メソッド](#get-メソッド-1)
     - [POST メソッド](#post-メソッド-1)
+
 
 
 # 0. 結論
