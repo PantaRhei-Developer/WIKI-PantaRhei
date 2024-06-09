@@ -102,4 +102,4 @@
 5.受講案内
 
 
-![alt text](../images/image10５.png)
+![alt text](../images/image105.png)
