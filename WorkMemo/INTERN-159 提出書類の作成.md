@@ -39,6 +39,8 @@
 
 ![alt text](../images/image85.png)
 
+![alt text](../images/image8.png)
+
 **受講者名簿**
 
 ![alt text](../images/image86.png)
