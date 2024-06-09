@@ -49,9 +49,9 @@
 
 かずさんからGitHubの概念について教えをいただいた。
 
-![alt text](../images/image145.png)
+![alt text](../images/image145.jpeg)
 
-![alt text](../images/image146.png)
+![alt text](../images/image146.jpeg)
 
 # 2. ワークログ
 ## 2.0. GitとGitHub
