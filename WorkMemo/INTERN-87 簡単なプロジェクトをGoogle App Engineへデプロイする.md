@@ -2,13 +2,13 @@
 *   2 [1. 概要](#1.概要)
 *   3 [2. メモ](#2.メモ)
 
-0. 結論
+# 0. 結論
 
 できた
 
 https://nuxt-test-403805.uw.r.appspot.com/ 
 
-1. 概要
+# 1. 概要
 
 https://pantarhei-hub.atlassian.net/browse/INTERN-87 
 
@@ -17,7 +17,7 @@ https://qiita.com/shin1kt/items/a523475f5e16f6ee43a0
 
 https://v2.nuxt.com/ja/deployments/google-appengine/ 
 
-2. メモ
+# 2. メモ
 
 leadkockに習ってNuxt2でプロジェクト作成
 ![alt text](../images/image23.png)
