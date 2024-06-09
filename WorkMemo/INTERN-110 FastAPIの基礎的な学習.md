@@ -17,7 +17,7 @@
   - [6.1. リクエストボディの基本的な使用例](#61-リクエストボディの基本的な使用例)
 - [7. レスポンスボディ](#7-レスポンスボディ)
   - [7.1. レスポンスモデルの基本的な使用例](#71-レスポンスモデルの基本的な使用例)
-- [8. リクエストボディとレスポンスボディの違い](#8-リクエストボディとレスポンスボディの違い)
+- [8. リクエストボディとレスポンスモデルの違い](#8-リクエストボディとレスポンスモデルの違い)
   - [8.1. リクエストボディの処理](#81-リクエストボディの処理)
   - [8.2. レスポンスモデルの指定](#82-レスポンスモデルの指定)
 - [9. 参考](#9-参考)
@@ -44,7 +44,8 @@ PythonでかけるWebフレームワーク
 ・ASGIに対応しているので、非同期処理を行うことができ、高速
 
 # 3. docker + Hello World!
-docker-compose関連ファイルの作成
+## 3.1. docker-compose関連ファイルの作成
+
 `docker-compose.yaml`
 ```
 version: '3'
@@ -78,17 +79,17 @@ RUN if [ -f pyproject.toml ]; then poetry install --no-root; fi
 # uvicornのサーバーを立ち上げる
 ENTRYPOINT ["poetry", "run", "uvicorn", "api.main:app", "--host", "0.0.0.0", "--reload"]
 ```
-**イメージのビルド**
+## 3.2. イメージのビルド
 ```
 $ docker-compose build
 ```
-**poetryによるPython環境のセットアップ**
+## 3.3. poetryによるPython環境のセットアップ
 ```
 $ docker-compose run --entrypoint "poetry init --name leadnock-api --dependency fastapi --dependency uvicorn[standard] --dependency sqlalchemy --dependency 'cloud-sql-python-connector[pg8000]'" leadknock-api
 ```
 Authorのパートのみ `n` の入力
 
-**FastAPIのインストール**
+## 3.4. FastAPIのインストール
 ```
 $ docker-compose run --entrypoint "poetry install --no-root" demo-app
 ```
@@ -97,7 +98,7 @@ $ docker-compose run --entrypoint "poetry install --no-root" demo-app
 $ docker-compose build --no-cache
 ```
 
-**Hello World!**
+## 3.5. Hello World!
 ```
 from fastapi import FastAPI
 app = FastAPI()
@@ -114,7 +115,7 @@ localhostにアクセスすると
 # 4. パスパラメータ
 FastAPIでは、パスパラメータを使用して、URLの一部を変数として取得できる。
 
-## パスパラメータの基本的な使用例
+## 4.1. パスパラメータの基本的な使用例
 ```
 from fastapi import FastAPI
 app = FastAPI()
@@ -133,7 +134,7 @@ def read_item(item_id: int):
 # 5. クエリパラメータ
 クエリパラメータは、URLのクエリ文字列を使用してデータをサーバーに送信する方法です。FastAPIでは、クエリパラメータを関数の引数として受け取ることができます。以下に、FastAPIでクエリパラメータを利用する方法の詳細を示します。
 
-**クエリパラメータの基本的な使用例**
+## 5.1. クエリパラメータの基本的な使用例
 ```
 from fastapi import FastAPI
 app = FastAPI()
@@ -147,7 +148,7 @@ def read_item(q: str):
 
 ![alt text](../images/image32.webp)
 
-**オプションのクエリパラメータ**
+## 5.2. オプションのクエリパラメータ
 
 クエリパラメータは通常、必須のものとして扱われるが、オプションのクエリパラメータも指定できる。これを行うには、引数にデフォルト値を指定する。
 ```
@@ -159,7 +160,7 @@ def read_item(q: str = None):
 ```
 上記の例では、`q`がオプションのクエリパラメータとなり、クライアントが提供しない場合は`None`がデフォルト値として使用される。
 
-**複数のクエリパラメータの受け取り**
+## 5.3. 複数のクエリパラメータの受け取り**
 ```
 from fastapi import FastAPI
 app = FastAPI()
@@ -174,7 +175,7 @@ def read_item(q: str = None, limit: int = 10):
 # 6. リクエストボディ
 リクエストボディは、HTTPリクエストの一部としてデータをサーバーに送信するためのメカニズムです。FastAPIでは、リクエストボディのデータを取得するために、Pydanticモデルを使用することが一般的です。以下に、リクエストボディの処理について詳しく説明します。
 
-**リクエストボディの基本的な使用例**
+## 6.1. リクエストボディの基本的な使用例
 ```
 from typing import Union
 from fastapi import FastAPI
@@ -209,11 +210,11 @@ print(response.json())
 ```
 ![alt text](../images/image34.webp)
 
-# 7. レスポンスモデル
+# 7. レスポンスボディ
 
 FastAPIでは、エンドポイントが返すレスポンスの形式を指定するために、レスポンスモデルを使用でき、これにより、FastAPIはレスポンスを自動的に検証し、ドキュメントに表示することができる。
 
-**レスポンスモデルの基本的な使用例**
+## 7.1. レスポンスモデルの基本的な使用例
 ```
 from fastapi import FastAPI
 
@@ -234,7 +235,7 @@ async def create_item(item: ItemResponse):
 
 リクエストボディとレスポンスモデルの違いが良くわからんからGPTに聞いてみた。
 
-1.**リクエストボディ**:
+1. リクエストボディ
 
   ・**役割**: リクエストボディはクライアントからサーバーにデータを送信するために使用されます。
 
@@ -242,7 +243,7 @@ async def create_item(item: ItemResponse):
 
   ・**FastAPIでの処理**: リクエストボディのデータはPydanticモデルやBodyなどを使用して、エンドポイントの関数に渡され、データのバリデーションや変換が行われます。
 
-2.**レスポンスモデル:**
+2. レスポンスモデル
 
   ・**役割**: レスポンスモデルはサーバーからクライアントに返されるデータの形式を指定します。
 
@@ -252,7 +253,7 @@ async def create_item(item: ItemResponse):
 
 簡潔に言えば、リクエストボディはクライアントからのデータの形式を指定しサーバーに送信するためのものであり、レスポンスモデルはサーバーからクライアントに返されるデータの形式を指定する。
 
-**リクエストボディの処理**
+## 8.1. リクエストボディの処理
 
 クライアントがデータを送信する場合：
 ```
@@ -276,7 +277,7 @@ async def create_item(item: Item):
     # 登録が成功した場合はクライアントに成功レスポンスを返す
     return {"message": "Item created successfully"}
 ```
-**レスポンスモデルの指定**
+## 8.2. レスポンスモデルの指定
 
 サーバーがデータをクライアントに返す場合：
 ```
@@ -301,7 +302,7 @@ async def read_item(item_id: int):
 ```
 なるほどなー
 
-# 8. 参考
+# 9. 参考
 [チュートリアル - ユーザーガイド - FastAPI](https://fastapi.tiangolo.com/ja/tutorial/)
 
 [fastAPI入門 - Qiita](https://qiita.com/mossan_hoshi/items/dea5742e46a979601140)
