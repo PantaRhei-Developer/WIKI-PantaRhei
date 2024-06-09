@@ -1,31 +1,31 @@
 # 目次
 
-0. [結論](#結論)
-1. [概要](#概要)
-2. [デプロイするAPI](#デプロイするapi)
-    - [単一のクエリパラメータ](#単一のクエリパラメータ)
-    - [オプションのクエリパラメータ](#オプションのクエリパラメータ)
-    - [複数のクエリパラメータ](#複数のクエリパラメータ)
-    - [リクエストボディ](#リクエストボディ)
-    - [レスポンスモデル](#レスポンスモデル)
-    - [全部くっつけたやつ](#全部くっつけたやつ)
-3. [Cloud Runの構築](#cloud-runの構築)
-    - [docker-compose関連ファイルの作成](#docker-compose関連ファイルの作成)
-    - [gcloud CLI認証](#gcloud-cli認証)
-    - [CLIにプロジェクトを設定](#cliにプロジェクトを設定)
-    - [gcloud CLIでdockerコマンドの設定を行う](#gcloud-cliでdockerコマンドの設定を行う)
-    - [dockerイメージのビルドとアップロード](#dockerイメージのビルドとアップロード)
-    - [リポジトリにDockerイメージをpush](#リポジトリにdockerイメージをpush)
-4. [Cloud Runの設定と起動](#cloud-runの設定と起動)
-5. [APIを叩いてみる](#apiを叩いてみる)
+- [0. 結論](#0-結論)
+- [1. 概要](#1-概要)
+- [2. デプロイするAPI](#2-デプロイするapi)
+  - [単一のクエリパラメータ](#単一のクエリパラメータ)
+  - [オプションのクエリパラメータ](#オプションのクエリパラメータ)
+  - [複数のクエリパラメータ](#複数のクエリパラメータ)
+  - [リクエストボディ](#リクエストボディ)
+  - [レスポンスモデル](#レスポンスモデル)
+  - [全部くっつけたやつ](#全部くっつけたやつ)
+- [3. Cloud Runの構築](#3-cloud-runの構築)
+  - [docker-compose関連ファイルの作成](#docker-compose関連ファイルの作成)
+  - [gcloud CLI認証](#gcloud-cli認証)
+  - [CLIにプロジェクトを設定](#cliにプロジェクトを設定)
+  - [gcloud CLIでdockerコマンドの設定を行う](#gcloud-cliでdockerコマンドの設定を行う)
+  - [dockerイメージのビルドとアップロード](#dockerイメージのビルドとアップロード)
+  - [リポジトリにDockerイメージをpush](#リポジトリにdockerイメージをpush)
+- [4. Cloud Runの設定と起動](#4-cloud-runの設定と起動)
+- [5. APIを叩いてみる](#5-apiを叩いてみる)
+
 
 # 0. 結論
 デプロイできた↓
 
 [FastAPI - Swagger UI](https://demo-app-4foucacvfa-uc.a.run.app/docs#)
 
-1. 概要
-2. 
+# 1. 概要 
  [INTERN-112: FastAPIのコンテナをCloud Runにデプロイ完了](https://remotesalesproject.atlassian.net/browse/INTERN-112)
  
 # 2. デプロイするAPI
@@ -195,7 +195,7 @@ ENTRYPOINT ["bash", "entrypoint.sh"]
 ```
 $ gcloud auth login
 ```
-## CLIにプロジェクトを認定
+## CLIにプロジェクトを設定
 ```
 $ gcloud config set project {GCPのプロジェクトID}
 ```
