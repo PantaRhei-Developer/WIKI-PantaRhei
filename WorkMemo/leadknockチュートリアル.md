@@ -104,7 +104,7 @@ leadknock-backend
    path('api/dashboard/saleslog',
         DashboardSalesLogAPIView.as_view(), name="api_dashboard_saleslog"),
    ```
-3. 実装するapiあああが決まったらimportされているファイルを見に行きましょう</br>
+3. 実装するapiが決まったらimportされているファイルを見に行きましょう</br>
    ```
    # example
    from .views import (ProjectListView
