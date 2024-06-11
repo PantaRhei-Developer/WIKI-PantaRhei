@@ -2,8 +2,8 @@
 - [1. 概要](#1-概要)
 - [2. ワークログ](#2-ワークログ)
   - [2.1. GCEの起動スクリプトで実行](#21-GCEの起動スクリプトで実行)
-  - [2.2. rc.localで.shファイルを自動実行](#22-rc.localで.shファイルを自動実行)
-  - [2.3. systemdサービスで.shファイルを自動実行](#23-systemdサービスで.shファイルを自動実行)
+  - [2.2. rc.localで.shファイルを自動実行](#22-rclocalでshファイルを自動実行)
+  - [2.3. systemdサービスで.shファイルを自動実行](#23-systemdサービスでshファイルを自動実行)
 
 
 
@@ -140,7 +140,7 @@ exit 0
 
 **結論：失敗**
 
-## 2.3. systemdサービスで.shファイルを自動実行
+## 2.3. systemdサービスでshファイルを自動実行
 
 [![](https://cdn.qiita.com/assets/favicons/public/production-c620d3e403342b1022967ba5e3db1aaa.ico)Ubuntuで起動時に自動でShellScriptを実行する方法 - Qiita](https://qiita.com/MAI_onishi/items/74edc40a667dd2dc633e)
 
