@@ -1,10 +1,10 @@
 # 目次
 
-0. [結論](#結論)
-1. [概要](#概要)
-2. [ワークログ](#ワークログ)
+- [0. 結論](#0-結論)
+- [1. 概要](#1-概要)
+- [2. ワークログ](#2-ワークログ)
 
-# 0.結論
+# 0. 結論
 https://workstyle.metro.tokyo.lg.jp/about/ 
 
 リンクからテレワーク課題解決コンサルティングを受け、「テレワーク導入提案書」を受領しないといけない。
@@ -39,12 +39,12 @@ https://workstyle.metro.tokyo.lg.jp/about/
 
 10.非正規社員の労働契約書、労働条 件通知書 ※非正規社員 1 名分
 
-1.概要
+# 1. 概要
  [INTERN-136: テレワーク促進助成金（令和5年度）完了](https://remotesalesproject.atlassian.net/browse/INTERN-136)
  
 [テレワーク促進助成金（令和6年度） ｜ 東京しごと財団　雇用環境整備課 ](https://www.shigotozaidan.or.jp/koyo-kankyo/joseikin/telesoku.html)
 
-2.ワークログ
+# 2. ワークログ
 
 ![alt text](../images/image52.png)
 
