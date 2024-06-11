@@ -1,9 +1,9 @@
 - [0. 結論](#0-結論)
 - [1. 概要](#1-概要)
 - [2. ワークログ](#2-ワークログ)
-  - [GCEの起動スクリプトで実行](#-GCEの起動スクリプトで実行)
-  - [rc.localで.shファイルを自動実行](#-rc.localで.shファイルを自動実行)
-  - [systemdサービスで.shファイルを自動実行](#-systemdサービスで.shファイルを自動実行)
+  - [2.1. GCEの起動スクリプトで実行](#21-GCEの起動スクリプトで実行)
+  - [2.2. rc.localで.shファイルを自動実行](#22-rc.localで.shファイルを自動実行)
+  - [2.3. systemdサービスで.shファイルを自動実行](#23-systemdサービスで.shファイルを自動実行)
 
 
 
@@ -26,7 +26,7 @@
 
 やり方を3つ試した。結論を先に言うと、2.2.のやり方でうまく動くようになった。
 
-## GCEの起動スクリプトで実行
+## 2.1. GCEの起動スクリプトで実行
 
 GCEには起動スクリプトがある。
 
@@ -59,7 +59,7 @@ screen -ls
 
 **結論：失敗**
 
-## rc.localで.shファイルを自動実行
+## 2.2. rc.localで.shファイルを自動実行
 
 [![](https://cdn.qiita.com/assets/favicons/public/production-c620d3e403342b1022967ba5e3db1aaa.ico)Ubuntu 20.04 LTS でも rc.local は使える - Qiita](https://qiita.com/taraijpn/items/2ec3acead27be2f7bd50)
 
@@ -140,7 +140,7 @@ exit 0
 
 **結論：失敗**
 
-## systemdサービスで.shファイルを自動実行
+## 2.3. systemdサービスで.shファイルを自動実行
 
 [![](https://cdn.qiita.com/assets/favicons/public/production-c620d3e403342b1022967ba5e3db1aaa.ico)Ubuntuで起動時に自動でShellScriptを実行する方法 - Qiita](https://qiita.com/MAI_onishi/items/74edc40a667dd2dc633e)
 
