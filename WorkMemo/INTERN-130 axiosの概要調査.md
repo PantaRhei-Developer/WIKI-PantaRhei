@@ -4,7 +4,7 @@
 1. [概要](#1-概要)
 2. [axiosとは](#2-axiosとは)
     - [leadknockで使われているaxios](#leadknockで使われているaxios)
-3. [Axios Moduleの基本文法](#3-axios-moduleの基本文法)
+3. [Axios Moduleの基本文法](#3-axiosmoduleの基本文法)
     - [呼び出し方](#呼び出し方)
     - [GET メソッド](#get-メソッド)
     - [POST メソッド](#post-メソッド)
@@ -60,7 +60,7 @@ Nuxt2では`Axios Module`というのが使われているらしい
 # 2. Axios Moduleの基本文法
 [Nuxt.jsでaxiosの使い方と設定方法を紹介 ](https://ma-vericks.com/blog/nuxt-axios/)
 
-呼び出し方
+## 呼び出し方
 ```
 <script>
 	export default {
