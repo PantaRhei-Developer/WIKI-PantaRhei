@@ -3,7 +3,7 @@
 - [0. 結論](#0-結論)
 - [1. 概要](#1-概要)
 - [2.ワークログ](#2-ワークログ)
-   - [json→DataFrame→SQLで保存](#json→DataFrame→SQLで保存)
+   - [保存の仕方](#保存の仕方)
    - [方法の理由](#方法の理由)
 
 
@@ -19,7 +19,8 @@
 
 # 2. ワークログ
 
-## json→DataFrame→SQLで保存
+## 保存の仕方
+json、DataFrame、SQLで保存
 様々なサイトを調査した結果，Pythonのpandas.to_sqlを使用する方法がシンプルに思えたため，DataFrameを経由してSQLに保存することにした．
 
 ## 方法の理由
