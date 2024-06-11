@@ -2,14 +2,14 @@
 - [1. 概要](#1-概要)
 - [2. ワークログ](#2-ワークログ)
 
-#0.結論
+# 0. 結論
 
 もらえても13万なので受けない。
 
-# 1.概要
+# 1. 概要
 [INTERN-134: テレワーク推進強化奨励金完了](https://remotesalesproject.atlassian.net/browse/INTERN-134)
  
-# 2.ワークログ
+# 2. ワークログ
 [テレワーク推進強化奨励金 ｜ 東京しごと財団　雇用環境整備課 ](https://www.shigotozaidan.or.jp/koyo-kankyo/boshu/tele-suisinkyoka.html)
 
 期限
