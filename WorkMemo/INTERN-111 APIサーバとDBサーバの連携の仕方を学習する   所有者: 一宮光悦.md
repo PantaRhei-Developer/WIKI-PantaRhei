@@ -2,7 +2,7 @@
 
 - [0. 結論](#0-結論)
 - [1. 概要](#1-概要)
-- [2. プロジェクト.ファイル構成](#2-プロジェクト.ファイル構成)
+- [2. プロジェクトやファイル構成](#2-プロジェクトやファイル構成)
   - [Docker関連](#docker関連)
     - [docker-compose.yaml](#docker-composeyaml)
     - [Dockerfile](#dockerfile)
@@ -45,7 +45,7 @@ Google Cloud 難しい
 # 1. 概要
 [INTERN-111: APIサーバとDBサーバの連携の仕方を学習する 完了](https://pantarhei-hub.atlassian.net/browse/INTERN-111)
  
-# 2. プロジェクト.ファイル構成
+# 2. プロジェクトやファイル構成
 ```
 .
 ├── .dockervenv
