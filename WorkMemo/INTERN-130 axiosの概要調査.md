@@ -4,20 +4,20 @@
 1. [概要](#1-概要)
 2. [axiosとは](#2-axiosとは)
     - [leadknockで使われているaxios](#leadknockで使われているaxios)
-3. [Axios Moduleの基本文法](#3-axiosmoduleの基本文法)
+3. [Axios Moduleの基本文法](#3-axios-moduleの基本文法)
     - [呼び出し方](#呼び出し方)
     - [GET メソッド](#get-メソッド)
     - [POST メソッド](#post-メソッド)
     - [PUT メソッド](#put-メソッド)
     - [DELETE メソッド](#delete-メソッド)
     - [ヘッダーの設定](#ヘッダーの設定)
-    - [同期・非同期制御](#同期・非同期制御)
-    - [.then()](#then)
-    - [async/await](#asyncawait)
+    - [同期・非同期制御](#同期非同期制御)
+   	 - [.then()](#then)
+   	 - [async/await](#asyncawait)
     - [例外処理](#例外処理)
 4. [FastAPIで作ったものをAxios Moduleで叩いてみる](#4-fastapiで作ったものをaxios-moduleで叩いてみる)
-    - [GET メソッド](#get-メソッド-1)
-    - [POST メソッド](#post-メソッド-1)
+    - [GET メソッド](#get-メソッド)
+    - [POST メソッド](#post-メソッド)
 
 
 
@@ -57,7 +57,7 @@ AxiosはJavaScriptで使えるHTTPクライアントライブラリです。Prom
 
 Nuxt2では`Axios Module`というのが使われているらしい
 
-# 2. Axios Moduleの基本文法
+# 3. Axios Moduleの基本文法
 [Nuxt.jsでaxiosの使い方と設定方法を紹介 ](https://ma-vericks.com/blog/nuxt-axios/)
 
 ## 呼び出し方
@@ -141,8 +141,8 @@ const response = await $axios.$post
 ```
 ヘッダーの設定は第三引数に JSON 形式で指定します。
 
- ## 同期・非同期制御
-`.then()`
+## 同期・非同期制御
+### `.then()`
 
 非同期通信後の処理を記述する方法です。
 ```
@@ -158,7 +158,7 @@ const response =　$axios.$post
 ```
 `.then() `を使うと後続の処理を記述できますが、呼び出し元には戻るので注意が必要です。
 
-`async/await`
+### `async/await`
 Node.js version 7 以降で使用可能な同期的な書き方です。
 ```
 async function() {
@@ -185,7 +185,7 @@ const response =　$axios.$post
 ```
 エラー時の処理を記述するには` .catch() `を使用します。エラーが発生した場合、ここで指定した処理が実行されます。
 
-# 3. FastAPIで作ったものをAxios Moduleで叩いてみる
+# 4. FastAPIで作ったものをAxios Moduleで叩いてみる
 叩いているAPIは下記
 
 https://demo-app-4foucacvfa-uc.a.run.app/docs#/default/read_item_get_items__get 
