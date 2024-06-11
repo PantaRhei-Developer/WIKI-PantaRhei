@@ -1,24 +1,24 @@
-*   1 [0\. 結論](#0.-結論)
-*   2 [1\. 概要](#1.-概要)
-*   3 [2\. ワークログ](#2.-ワークログ)
+- [0. 結論](#0-結論)
+- [1. 概要](#1-概要)
+- [2. ワークログ](#2-ワークログ)
     *   3.1 [スクリーンのインストールを確認](#スクリーンのインストールを確認)
     *   3.2 [スクリーン作成](#スクリーン作成)
     *   3.3 [スクリーンに入る](#スクリーンに入る)
     *   3.4 [セッションから退出する](#セッションから退出する)
     *   3.5 [セッションを削除する](#セッションを削除する)
 
-# 0\. 結論
+# 0. 結論
 
 スクリーンによって、僕のパソコンが動いていなくても、インスタンス上でスクレイピングすることができた。
 
-# 1\. 概要
+# 1. 概要
 
 [![](https://itc.tokyo/wp-content/uploads/itc-logo-simple-nobg-100x100.png)【超便利】screenコマンドの基本｜一覧や実例付きでわかりやすい](https://itc.tokyo/linux/screen-command/)  
 [作業がグッと楽になる screen を使おう！](https://bacchi.me/linux/how-2-use-screen/)  
 [![](https://cdn.qiita.com/assets/favicons/public/production-c620d3e403342b1022967ba5e3db1aaa.ico)Linux screenコマンド使い方 - Qiita](https://qiita.com/hnishi/items/3190f2901f88e2594a5f)  
 [![](https://pantarhei-hub.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318)INTERN-137: コマンド "screen"の使い方Done](https://remotesalesproject.atlassian.net/browse/INTERN-137)
 
-# 2\. ワークログ
+# 2. ワークログ
 
 以下はコマンドで実行する。
 
