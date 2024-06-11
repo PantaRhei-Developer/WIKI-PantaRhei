@@ -1,23 +1,20 @@
-*   [0\. 結論](https://remotesalesproject.atlassian.net/wiki/spaces/Intern/pages/429817898#0.-%E7%B5%90%E8%AB%96 "https://remotesalesproject.atlassian.net/wiki/spaces/Intern/pages/429817898#0.-%E7%B5%90%E8%AB%96")
-    
-*   [1\. 概要](https://remotesalesproject.atlassian.net/wiki/spaces/Intern/pages/429817898#1.-%E6%A6%82%E8%A6%81 "https://remotesalesproject.atlassian.net/wiki/spaces/Intern/pages/429817898#1.-%E6%A6%82%E8%A6%81")
-    
-*   [2\. ワークログ](https://remotesalesproject.atlassian.net/wiki/spaces/Intern/pages/429817898#2.-%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%AD%E3%82%B0 "https://remotesalesproject.atlassian.net/wiki/spaces/Intern/pages/429817898#2.-%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%AD%E3%82%B0")
-    
+- [0. 結論](#0-結論)
+- [1. 概要](#1-概要)
+- [2. ワークログ](#2-ワークログ)
 
-# 0\. 結論
+# 0. 結論
 
 会社の登録番号を載せている企業が多い
 
 取引先、実績を載せている企業も多い
 
-# 1\. 概要
+# 1. 概要
 
   [https://remotesalesproject.atlassian.net/browse/INTERN-20](https://remotesalesproject.atlassian.net/browse/INTERN-20)Can't find link
 
 [![](https://developers.google.com/drive/images/drive_icon.png)https://docs.google.com/spreadsheets/d/1Wk9nOyoukF6tOAvlAwTYs39CH-PTpCJKmA4cOoL2G9s/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1Wk9nOyoukF6tOAvlAwTYs39CH-PTpCJKmA4cOoL2G9s/edit?usp=sharing)Connect your Google account
 
-# 2\. ワークログ
+# 2. ワークログ
 
  他社会社のホームページの分析。
 
