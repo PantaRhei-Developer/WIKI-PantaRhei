@@ -1,13 +1,13 @@
-*   1 [0. 結論](#0.結論)
-*   2 [1. 概要](#1.概要)
-*   3 [2. Cloud Runの構築](#2.CloudRunの構築)
-    *   3.1 [2.1. Cloud Runの構築](#2.1.CloudRunの構築)
-    *   3.2 [2.2. Cloud Runの構築](#2.2.CloudRunの構築)
-    *   3.3 [2.3. Cloud Runの構築](#2.3.CloudRunの構築)
-    *   3.4 [2.4. Cloud Runの構築](#2.4.CloudRunの構築)
-    *   3.5 [2.5. Cloud Runの構築](#2.5.CloudRunの構築)
-*   4 [3. Cloud Runの設定と起動](#3.CloudRunの設定と起動)
-*   5 [4. 参考](#4.参考)
+- [0. 結論](#0-結論)
+- [1. 概要](#1-概要)
+- [2. Cloud Runの構築](#2-cloud-runの構築)
+   - [2.1. gcloud CLI認証](#21-gcloud-cli認証)
+   - [2.2. Cloud Runの構築](#22-CloudRunの構築)
+   - [2.3. Cloud Runの構築](#23-CloudRunの構築)
+   - [2.4. Cloud Runの構築](#24-CloudRunの構築)
+   - [2.5. Cloud Runの構築](#25-CloudRunの構築)
+- [3. Cloud Runの設定と起動](#3-CloudRunの設定と起動)
+- [4. 参考](#4-参考)
 
 # 0. 結論
 
@@ -44,7 +44,7 @@ RUN yarn generate
 CMD [ "yarn", "start" ]
 ```
 
-## **gcloud CLI認証**
+## 2.1. gcloud CLI認証
 ```
 $ gcloud auth login
 ```
