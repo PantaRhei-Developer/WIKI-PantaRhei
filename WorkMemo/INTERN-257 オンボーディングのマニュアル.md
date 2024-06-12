@@ -114,5 +114,9 @@ Confluenceの書き方をハンズオンするために，Confluenceで自己紹
 | オンスケ | 予定通り |
 | 巻き | 予定より進んでいる |
 
+###GitHub Copilotの登録
+学生無料でできるのでその申請を行う（下記のリンク参照）
+[https://qiita.com/SNQ-2001/items/796dc5e794ac3f57a945]
+
 
 
