@@ -33,7 +33,7 @@
 # 2. 雇用契約書にサインを頂く/交通費表に記入
 雇用契約書:[https://docs.google.com/forms/d/1w5QhG6jLpsa5xpuWVdYSj6y6zK-n19tRoRgIxyCxXx8/edit](https://docs.google.com/spreadsheets/d/1R4b_Qx9a2lqRWUP_1w84Fp3Dtsx3hCZ0l1dJAt_qqOQ/edit?usp=sharing)`ご使用の Google アカウントを接続` 
 
-交通費表: [https://docs.google.com/spreadsheets/d/1sIEDUIIkVgdfvVgupS86htGGqCbsHtYFrVziuHZ38uw/edit?usp=sharing]( https://docs.google.com/spreadsheets/d/1sIEDUIIkVgdfvVgupS86htGGqCbsHtYFrVziuHZ38uw/edit?usp=sharing)`ご使用の Google アカウントを接続` 
+
 
 # 3. クラウドサインでNDAを締結する
 クラウドサイン雛形
