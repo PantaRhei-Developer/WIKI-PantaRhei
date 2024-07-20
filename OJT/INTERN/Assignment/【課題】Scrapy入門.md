@@ -12,12 +12,13 @@ githubにpushして完了。
 
 ## 課題詳細
 - Scrapyを用いる
-- [https://traininfo.jreast.co.jp/delay_certificate/](このサイト)にある17路線の遅延時間を45日分収集してください。
+- https://traininfo.jreast.co.jp/delay_certificate/にある17路線の遅延時間を45日分収集してください。
 - アウトプットはcsvです。
 
 ## csvのカラム
 
 |取得要素|カラム名|型|
+|---|---|---|
 |日付|date|date型|
 |路線|line|文字列型|
 |時間帯|timeframe|文字列型|
